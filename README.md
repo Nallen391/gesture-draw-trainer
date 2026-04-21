@@ -146,14 +146,108 @@ gesture_draw_trainer_V1.4/
 
 ---
 
-## Setting It Up on a New Computer
+## Setting It Up on a New Computer — Complete Beginner Guide
 
-See `main_folder/How to import to a new computer .txt` for step-by-step notes.
+Follow whichever path matches your situation.
 
-Short version:
-1. Clone or download the repo from https://github.com/Nallen391/gesture-draw-trainer
-2. On Windows: run the `.exe` directly from `main_folder/dist/`
-3. On Mac/Linux: install Python + Pillow (`pip install -r requirements.txt`), then run `python Safe_Launcher.pyw`
+---
+
+### Windows — Quickest Method (no technical knowledge needed)
+
+**Step 1 — Download the project**
+
+1. Go to https://github.com/Nallen391/gesture-draw-trainer in your web browser
+2. Click the green **Code** button near the top right
+3. Click **Download ZIP**
+4. Once it downloads, find the ZIP file in your Downloads folder
+5. Right-click it and select **Extract All**, then click **Extract**
+6. You now have a folder called `gesture-draw-trainer-main`
+
+**Step 2 — Run the app**
+
+1. Open the `gesture-draw-trainer-main` folder
+2. Open the `main_folder` folder
+3. Open the `dist` folder
+4. Double-click **Reference dealer v1.4.exe**
+
+If Windows shows a warning saying "Windows protected your PC":
+- Click **More info**
+- Click **Run anyway**
+
+The app will open. You're ready to go.
+
+---
+
+### Windows — If the .exe Doesn't Work (Python method)
+
+**Step 1 — Download the project** (same as above)
+
+**Step 2 — Install Python**
+
+1. Go to https://www.python.org/downloads/
+2. Click the big yellow **Download Python** button
+3. Run the installer
+4. **Important:** On the first screen of the installer, check the box that says **"Add Python to PATH"** before clicking Install
+5. Click **Install Now** and let it finish
+
+**Step 3 — Install the required library**
+
+1. Press the **Windows key**, type `cmd`, and press Enter — this opens a black Command Prompt window
+2. Type the following and press Enter (replace the path with wherever you extracted the project):
+```
+pip install pillow
+```
+3. Wait for it to finish — you'll see "Successfully installed" when done
+
+**Step 4 — Run the app**
+
+1. Open the `gesture-draw-trainer-main` folder, then `main_folder`
+2. Double-click **Safe_Launcher.pyw**
+
+If double-clicking doesn't work:
+1. Open Command Prompt again
+2. Type `python ` (with a space after), then drag and drop the `Safe_Launcher.pyw` file into the Command Prompt window — it will fill in the path automatically
+3. Press Enter
+
+---
+
+### Mac or Linux (Python method)
+
+**Step 1 — Download the project**
+
+1. Go to https://github.com/Nallen391/gesture-draw-trainer
+2. Click the green **Code** button → **Download ZIP**
+3. Extract the ZIP file (double-click it on Mac)
+
+**Step 2 — Install Python** (if not already installed)
+
+- **Mac:** Go to https://www.python.org/downloads/ and download the Mac installer
+- **Linux:** Python is usually pre-installed. Check by opening a Terminal and typing `python3 --version`
+
+**Step 3 — Install the required library**
+
+Open a Terminal and run:
+```
+pip3 install pillow
+```
+
+**Step 4 — Run the app**
+
+In Terminal, navigate to the `main_folder` and run:
+```
+python3 Safe_Launcher.pyw
+```
+
+---
+
+### First Time Using the App
+
+Once the launcher opens:
+
+1. Click **Browse** next to Image Folder and navigate to a folder of images on your computer
+2. Set how many images you want to see (start with 10)
+3. Set how many seconds per image (30 seconds is a good starting point for gesture drawing)
+4. Click **Start Slideshow**
 
 ---
 
