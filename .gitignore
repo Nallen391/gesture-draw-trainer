@@ -1,6 +1,8 @@
 # Build artifacts
 main_folder/build/
-main_folder/dist/
+
+# dist folder tracked (contains .exe for direct use after cloning)
+# main_folder/dist/
 
 # Compiled Python
 __pycache__/
