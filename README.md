@@ -20,13 +20,17 @@ Images are shown in **random order** every session.
 
 ## How to Run It
 
-### Easiest Way — Use the .exe
+> **Note:** The compiled `.exe` is not stored in the GitHub repo (it's excluded by .gitignore).
+> If you cloned this from GitHub, use the Python method below. If you're working from the
+> original OneDrive folder, the `.exe` is still there locally.
+
+### Option A — Use the .exe (OneDrive copy only)
 
 1. Open the `main_folder/dist/` folder
 2. Double-click **Reference dealer v1.4.exe**
 3. The launcher window will open — fill in your settings and click **Start Slideshow**
 
-### If the .exe Doesn't Work — Run with Python
+### Option B — Run with Python (works anywhere)
 
 You'll need Python installed (version 3.x) and the Pillow library.
 
@@ -103,9 +107,8 @@ gesture_draw_trainer_V1.4/
     ├── main.pyw                ← Main slideshow logic (called by launcher)
     ├── gesture_draw_trainer.py ← All-in-one alternative version
     ├── slideshow.py            ← Grid review module
-    ├── dist/
-    │   └── Reference dealer v1.4.exe  ← Compiled executable (easiest to use)
-    ├── build/                  ← Build artifacts from PyInstaller (can ignore)
+    ├── dist/                   ← Local only (gitignored) — contains the .exe
+    ├── build/                  ← Local only (gitignored) — PyInstaller artifacts
     └── How to import to a new computer .txt  ← Setup notes
 ```
 
@@ -141,9 +144,9 @@ Short version:
 - Close and relaunch
 - If using the `.exe`, try running `Safe_Launcher.pyw` with Python instead
 
-**No .exe in dist folder?**
-- Run `Safe_Launcher.pyw` with Python directly
-- Or rebuild the exe with: `pyinstaller Launcher.spec` from inside `main_folder/`
+**No .exe in dist folder? (expected if cloned from GitHub)**
+- The `.exe` is excluded from the repo — use `python Safe_Launcher.pyw` instead
+- To rebuild the exe: run `pyinstaller Launcher.spec` from inside `main_folder/` (requires PyInstaller: `pip install pyinstaller`)
 
 ---
 
