@@ -1,0 +1,12 @@
+# Build artifacts
+main_folder/build/
+main_folder/dist/
+
+# Compiled Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller specs (optional - remove these lines if you want to keep them)
+# *.spec
