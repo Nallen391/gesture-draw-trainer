@@ -1,0 +1,10 @@
+How to set up the reference dealer on a new computer
+
+Step 1: Find the most recent cersion of the folder 
+Step 2: Navigate to the dist folder 
+Step 3: Inside the dist folder should be a .exe file
+Step 4: Create a shortcut to this .exe file 
+
+If you can't find the .exe file look at the Reference dealer backup files and find the compressed zip folder containing the backup folder. That contains a backup .exe file
+
+If even that doesn't work there is a copy of this on the onedrive desktop
