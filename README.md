@@ -2,7 +2,7 @@
 
 **GitHub Repository:** https://github.com/Nallen391/gesture-draw-trainer
 
-A personal tool for timed gesture drawing practice. It shows you reference photos one at a time with a countdown timer, so you can practice sketching quickly under time pressure — then shows a grid of everything you drew from at the end of the session.
+A personal tool for timed drawing practice. It shows you any reference photos you have one at a time with a countdown timer, so you can practice sketching quickly under time pressure — then shows a numbered grid of each image that was served at the end of the session so you can cross reference your work against it.
 
 > **Platform:** Windows only (the `.exe` is Windows-specific). Mac/Linux users can run the Python scripts directly — see Option B below.
 
