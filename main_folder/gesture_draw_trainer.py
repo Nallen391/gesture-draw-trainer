@@ -56,7 +56,7 @@ class Slideshow:
 
         img_path = self.images[self.index]
         img = Image.open(img_path)
-        img.thumbnail((800, 600), Image.Resampling.LANCZOS)
+        img.thumbnail((800, 500), Image.Resampling.LANCZOS)
         tk_img = ImageTk.PhotoImage(img)
 
         self.photo_label.configure(image=tk_img)

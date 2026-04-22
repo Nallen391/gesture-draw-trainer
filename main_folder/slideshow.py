@@ -47,7 +47,7 @@ class Slideshow:
         img = Image.open(img_path)
 
         # Resize while keeping aspect ratio
-        img.thumbnail((800, 600), Image.Resampling.LANCZOS)
+        img.thumbnail((800, 500), Image.Resampling.LANCZOS)
         tk_img = ImageTk.PhotoImage(img)
 
         self.photo_label.configure(image=tk_img)

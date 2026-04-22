@@ -126,6 +126,8 @@ When all images have been shown, a grid review appears:
 - Each thumbnail is numbered so you can identify them
 - The window is scrollable if there are many images
 
+> **Warning:** The end-of-session grid is not saved anywhere. Once you close the window, those images are gone — there is no session history and no way to get the grid back. If you want to keep a record of what you drew from, take a screenshot before closing.
+
 ---
 
 ## Supported Image Formats
