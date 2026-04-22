@@ -297,9 +297,9 @@ See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## Credits
+## Use of AI Disclaimer
 
-Coded with assistance from ChatGPT and [Claude Code](https://claude.ai/code) (Anthropic).
+Coded with assistance from [ChatGPT]((https://chatgpt.com/)) and [Claude Code](https://claude.ai/code) (Anthropic).
 
 ---
 
