@@ -83,7 +83,7 @@ The more specific your folder, the more focused your session. Practicing hands? 
 One of my favorite places for high quality paid referance photos is [Proko.com](https://www.proko.com/browse/tools?term=&toolTypes=Image%20Pack&specialOffersOnly=false&prokoOriginalOnly=false&freeContentOnly=false&instructorsOnly=true&inProgress=false&savedForLater=false&purchased=false&sort=-trend_score) (Tools -> filter: Tool type -> image packs). 
 
 
-I most preffer the packs by Stan Prokopenko, The Mallory, Yoni, Marcia, Ethan, Anthony, Veronica, Ryan, Chanon, Laura, Sekka, and Aaron packs form the core of my own reference dealer. 
+I most preffer the packs by Stan Prokopenko. The Mallory, Yoni, Marcia, Ethan, Anthony, Veronica, Ryan, Chanon, Laura, Sekka, and Aaron packs form the core of my own reference dealer. 
 
 ---
 
